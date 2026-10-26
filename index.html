@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Innovation Affaires · Le club d'affaires augmenté</title>
+<meta name="description" content="Innovation Affaires, le premier club d'affaires avec une solution d'intelligence artificielle intégrée : ARIA. Réunion chaque vendredi à 7h15 au 89 rue Raspail, La Garde (Var).">
+<link rel="icon" href="assets/monogramme-ia.svg" type="image/svg+xml">
+<meta property="og:title" content="Innovation Affaires · Le club d'affaires augmenté">
+<meta property="og:description" content="Connecter pour entreprendre. Le premier club d'affaires avec une solution IA intégrée. Chaque vendredi à 7h15 à La Garde.">
+<meta property="og:image" content="https://innovation-affaires.fr/assets/logo-ia-carre.png">
+<meta property="og:url" content="https://innovation-affaires.fr/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#122536; --navy-2:#1b3349; --gold:#C4955A; --gold-l:#E2C08D;
+  --cream:#F6F1E8; --paper:#FFFFFF; --ink:#122536; --muted:#5B6773; --line:#E6DCCB;
+  --violet:#6D28FF; --violet-l:#A47BFF; --night:#0B0A12;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:Montserrat,sans-serif;line-height:1.1;letter-spacing:-.01em}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:Montserrat,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:.95em 1.6em;border-radius:999px;font-weight:600;text-decoration:none;font-family:Montserrat,sans-serif;font-size:.95rem;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--navy);box-shadow:0 8px 24px rgba(196,149,90,.35)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-line{border:1.5px solid var(--navy);color:var(--navy)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.btn-violet{background:var(--violet);color:#fff;box-shadow:0 8px 24px rgba(109,40,255,.35)}
+section{padding:96px 0}
+.head{max-width:720px;margin-bottom:52px}
+.head h2{font-size:clamp(2rem,4vw,2.8rem);margin:14px 0 16px;font-weight:800}
+.head p{color:var(--muted);font-size:1.08rem}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:40px;width:auto}
+.brand-name{font-family:Montserrat;font-weight:500;letter-spacing:.2em;font-size:.95rem;line-height:1.15;color:var(--navy);display:flex;flex-direction:column}
+.brand-name b{font-weight:600;color:var(--gold);font-size:.78rem;letter-spacing:.42em}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--muted)}
+nav a:hover{color:var(--navy)}
+nav .btn{padding:.6em 1.2em;color:var(--navy)}
+@media (max-width:900px){nav a:not(.btn){display:none}}
+@media (max-width:420px){.brand-name{display:none}}
+
+/* Hero, façon kakemono */
+.hero{background:var(--paper);padding:64px 0 0;text-align:center}
+.hero-logo{width:min(440px,78vw);margin:0 auto}
+.hero .tag{font-family:Montserrat;font-weight:600;font-size:clamp(1.1rem,2.4vw,1.45rem);color:var(--navy);margin-top:26px;letter-spacing:.02em}
+.hero .tag em{font-style:normal;color:var(--gold)}
+.meet{display:inline-flex;align-items:center;gap:12px;margin:26px 0 46px;padding:12px 22px;border-radius:999px;background:var(--cream);border:1px solid var(--line);font-weight:600;font-size:.98rem}
+.meet .dot{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px rgba(196,149,90,.2)}
+.gold-rule{height:6px;background:linear-gradient(90deg,var(--gold),var(--gold-l),var(--gold))}
+.band{background:radial-gradient(ellipse at 50% 20%,var(--navy-2),var(--navy) 70%);color:#fff;padding:72px 0 84px}
+.band .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.network{width:100%;max-width:420px;justify-self:center}
+.band h1{font-size:clamp(2.6rem,5.6vw,4.2rem);font-weight:800;margin:16px 0 20px}
+.band h1 em{font-style:normal;color:var(--gold-l)}
+.band p{color:#C9D3DC;font-size:1.1rem;max-width:32em}
+.band .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.rounds{display:flex;gap:28px;margin-top:40px;flex-wrap:wrap}
+.round{display:flex;flex-direction:column;align-items:center;gap:10px;font-family:Montserrat;font-weight:700;font-size:.92rem;text-align:center;width:104px}
+.round i{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:#0d1c2a;border:1px solid rgba(226,192,141,.35);color:var(--gold-l)}
+.round.g i{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--navy);border:0}
+@media (max-width:900px){.band .wrap{grid-template-columns:1fr;text-align:center}.band p{margin:0 auto}.band .ctas,.rounds{justify-content:center}.network{max-width:300px}}
+
+/* Club */
+.club{background:var(--cream)}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px}
+.card .ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--navy);color:var(--gold-l);margin-bottom:18px}
+.card h3{font-size:1.12rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.95rem}
+@media (max-width:960px){.grid4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.grid4{grid-template-columns:1fr}}
+
+/* Réunions */
+.rdv-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.weekly{background:var(--navy);color:#fff;border-radius:24px;padding:40px;position:relative;overflow:hidden}
+.weekly::after{content:"";position:absolute;right:-60px;bottom:-60px;width:220px;height:220px;border-radius:50%;border:30px solid rgba(196,149,90,.18)}
+.weekly .big{font-family:Montserrat;font-weight:800;font-size:clamp(2.4rem,5vw,3.4rem);line-height:1;margin:18px 0 6px}
+.weekly .big em{font-style:normal;color:var(--gold-l)}
+.weekly .day{font-family:Montserrat;font-weight:700;font-size:1.4rem}
+.weekly p{color:#C9D3DC;margin-top:16px;max-width:26em}
+.weekly .btn{margin-top:26px;position:relative;z-index:1}
+.events{display:grid;gap:18px}
+.event{display:flex;gap:20px;border:1px solid var(--line);border-radius:20px;padding:22px;background:#fff}
+.date{flex:none;width:76px;height:84px;border-radius:16px;background:var(--cream);border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Montserrat}
+.date b{font-size:1.9rem;line-height:1;color:var(--navy)}
+.date small{color:var(--gold);text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-size:.72rem;margin-top:4px}
+.event h3{font-size:1.08rem;margin-bottom:6px}
+.event p{color:var(--muted);font-size:.93rem}
+.event .meta{margin-top:8px;font-weight:600;font-size:.88rem}
+@media (max-width:900px){.rdv-grid{grid-template-columns:1fr}}
+
+/* Partenariat */
+.duo{background:var(--cream);padding:72px 0}
+.duo .wrap{display:flex;align-items:center;justify-content:center;gap:clamp(24px,5vw,64px);flex-wrap:wrap;text-align:center}
+.duo .logo-ia{width:230px}
+.duo .x{font-family:Montserrat;font-size:2.2rem;color:var(--gold);font-weight:500}
+.duo .logo-aria{width:300px}
+@media (max-width:600px){.duo .wrap{flex-direction:column;gap:14px}}
+.duo p{flex-basis:100%;color:var(--muted);max-width:40em;margin:8px auto 0;font-size:1.05rem}
+
+/* ARIA */
+.aria{background:var(--night) url(assets/aria-horizon.jpg) center 85%/cover no-repeat;color:#F4F1EA;position:relative}
+.aria::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,18,.96) 0%,rgba(11,10,18,.82) 50%,rgba(11,10,18,.94) 100%)}
+.aria .wrap{position:relative}
+.aria .eyebrow{color:var(--violet-l)}
+.aria .head p{color:#B9B6C6}
+.aria h2 em{font-style:normal;color:var(--violet-l)}
+.aria-logo{width:min(320px,70vw);margin-bottom:34px}
+.video{border-radius:22px;overflow:hidden;border:1px solid #2E2A44;box-shadow:0 40px 90px rgba(109,40,255,.28);margin-bottom:56px}
+.video video{width:100%;aspect-ratio:16/9;background:#000}
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feat{background:rgba(21,20,30,.85);border:1px solid #2A2836;border-radius:18px;padding:22px}
+.feat h3{font-size:1.02rem;margin-bottom:6px}
+.feat p{font-size:.9rem;color:#A8A4B8}
+.feat q{display:block;margin-top:10px;font-size:.86rem;color:var(--violet-l)}
+.brains{margin-top:22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;color:#B9B6C6;font-size:.92rem}
+.brains span{border:1px solid #3A3650;border-radius:999px;padding:6px 14px;color:#fff;font-weight:600;font-size:.85rem}
+@media (max-width:900px){.feats{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.feats{grid-template-columns:1fr}}
+
+/* Espace club */
+.espace{background:#fff}
+.espace .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.espace .shot{border-radius:22px;overflow:hidden;box-shadow:0 30px 70px rgba(18,37,54,.25)}
+.espace ul{list-style:none;display:grid;gap:16px;margin-top:8px}
+.espace li{padding-left:18px;border-left:3px solid var(--violet)}
+.espace li b{display:block;font-family:Montserrat}
+.espace li span{color:var(--muted);font-size:.94rem}
+.espace .eyebrow{color:var(--violet)}
+@media (max-width:900px){.espace .wrap{grid-template-columns:1fr}}
+
+/* Offre */
+.offer{background:var(--cream)}
+.offer .eyebrow{color:var(--violet)}
+.offer-box{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.incl{background:#fff;border:1px solid var(--line);border-radius:24px;padding:36px}
+.incl ul{list-style:none;display:grid;gap:14px;margin-top:18px}
+.incl li{display:flex;gap:12px;align-items:flex-start}
+.incl li::before{content:"✓";flex:none;width:24px;height:24px;border-radius:50%;background:#EFE7FF;color:var(--violet);display:grid;place-items:center;font-weight:700;font-size:.8rem}
+.price{background:var(--night);color:#fff;border-radius:24px;padding:36px;display:flex;flex-direction:column}
+.price .eyebrow{color:var(--violet-l)}
+.price .amount{font-family:Montserrat;font-weight:800;font-size:4.2rem;line-height:1;margin:18px 0 6px}
+.price .amount small{font-size:1rem;font-weight:600}
+.price p{color:#B9B6C6;font-size:.93rem}
+.price s{color:#8C889A}
+.price .save{color:var(--violet-l);font-weight:600;margin-top:4px}
+.price hr{border:0;border-top:1px solid #2A2836;margin:20px 0}
+.podcast{margin-top:24px;background:#EFE7FF;border-radius:24px;padding:32px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.podcast .mic{width:64px;height:64px;border-radius:50%;background:var(--violet);display:grid;place-items:center;color:#fff;flex:none}
+.podcast div{flex:1;min-width:240px}
+.podcast h3{font-size:1.3rem;margin-bottom:6px}
+.podcast p{color:#4B4560}
+.note{margin-top:16px;font-size:.85rem;color:var(--muted)}
+@media (max-width:860px){.offer-box{grid-template-columns:1fr}}
+
+/* Rejoindre */
+.join{background:var(--navy);color:#fff;text-align:center}
+.join .mono{width:84px;margin:0 auto 22px;filter:drop-shadow(0 6px 20px rgba(0,0,0,.3))}
+.join h2{font-size:clamp(2rem,4.5vw,3.2rem);font-weight:800;margin:14px 0 18px}
+.join h2 em{font-style:normal;color:var(--gold-l)}
+.join p{color:#C9D3DC;max-width:36em;margin:0 auto}
+.join .ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+.invite{max-width:620px;margin:34px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;background:rgba(255,255,255,.05);border:1px solid rgba(226,192,141,.3);border-radius:22px;padding:28px}
+.invite label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;font-weight:600;color:#C9D3DC}
+.invite input,.invite textarea{font:inherit;font-weight:400;font-size:1rem;color:var(--navy);background:#fff;border:1px solid transparent;border-radius:12px;padding:12px 14px}
+.invite input:focus,.invite textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+.invite .full{grid-column:1/-1}
+.invite button{border:0;cursor:pointer;justify-content:center;margin-top:6px}
+.invite .honey{display:none}
+@media (max-width:560px){.invite{grid-template-columns:1fr;padding:20px}}
+.join .contact{margin-top:28px;color:#C9D3DC;font-size:.95rem}
+.join .contact a{color:#fff;text-decoration:none;font-weight:600}
+.mono-wrap{background:#fff;border-radius:22px;width:120px;height:120px;display:grid;place-items:center;margin:0 auto 26px}
+.mono-wrap img{width:84px}
+
+footer{background:#0C1A27;color:#8EA0B1;font-size:.88rem;padding:30px 0}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+footer a{color:#C9D3DC;text-decoration:none}
+footer .f-aria{display:flex;align-items:center;gap:10px}
+footer .f-aria img{height:34px}
+@media (max-width:560px){section{padding:72px 0}.wrap{padding:0 16px}.weekly,.incl,.price{padding:26px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#"><img src="assets/monogramme-ia.svg" alt=""><span class="brand-name">INNOVATION<b>AFFAIRES</b></span></a>
+    <nav>
+      <a href="#club">Le club</a>
+      <a href="#reunions">Réunions</a>
+      <a href="#aria">ARIA</a>
+      <a href="#offre">Offre membre</a>
+      <a class="btn btn-gold" href="#rejoindre">Nous rejoindre</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <img class="hero-logo" src="assets/logo-innovation-affaires.svg" alt="Innovation Affaires">
+    <p class="tag">Connecter pour entreprendre · <em>le 1er club avec une solution IA intégrée</em></p>
+    <div class="meet"><span class="dot"></span>Chaque vendredi à 7h15 · 89 rue Raspail, La Garde</div>
+  </div>
+  <div class="gold-rule"></div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <svg class="network" viewBox="0 0 400 400" role="img" aria-label="Les membres du club reliés par l'IA">
+      <defs>
+        <radialGradient id="g" cx=".35" cy=".3"><stop offset="0" stop-color="#EBCB98"/><stop offset="1" stop-color="#B9844A"/></radialGradient>
+        <g id="p"><circle r="18" fill="#F6F1E8"/><circle cy="-4" r="5.5" fill="#122536"/><path d="M-9 9a9 8 0 0 1 18 0z" fill="#122536"/></g>
+      </defs>
+      <g stroke="#C4955A" stroke-opacity=".55" stroke-width="1.5" fill="none">
+        <path d="M60 110L150 50L290 60L350 140L355 260L300 340L150 345L50 260Z"/>
+        <path d="M120 140L200 200L280 140M120 260L200 200L280 260M60 110L120 140M150 50L120 140M290 60L280 140M350 140L280 140M355 260L280 260M300 340L280 260M150 345L120 260M50 260L120 260"/>
+      </g>
+      <circle cx="200" cy="200" r="88" fill="#fff" fill-opacity=".05"/>
+      <circle cx="200" cy="200" r="66" fill="#fff" fill-opacity=".06"/>
+      <circle cx="200" cy="200" r="46" fill="url(#g)"/>
+      <text x="200" y="211" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="30" fill="#122536">IA</text>
+      <g fill="#C4955A"><circle cx="120" cy="140" r="8"/><circle cx="280" cy="140" r="8"/><circle cx="120" cy="260" r="8"/><circle cx="280" cy="260" r="8"/></g>
+      <use href="#p" x="60" y="110"/><use href="#p" x="150" y="50"/><use href="#p" x="290" y="60"/><use href="#p" x="350" y="140"/>
+      <use href="#p" x="355" y="260"/><use href="#p" x="300" y="340"/><use href="#p" x="150" y="345"/><use href="#p" x="50" y="260"/>
+    </svg>
+    <div>
+      <div class="eyebrow">Le premier club avec l'IA intégrée</div>
+      <h1>Le club d'affaires <em>augmenté.</em></h1>
+      <p>Innovation Affaires réunit entrepreneurs et dirigeants pour créer des opportunités, partager leurs contacts et développer leur activité. Avec ARIA, l'intelligence artificielle intégrée au club, chaque membre gagne aussi du temps.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#rejoindre">Venir en invité</a>
+        <a class="btn btn-ghost" href="#aria">Découvrir ARIA</a>
+      </div>
+      <div class="rounds">
+        <div class="round"><i><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="9" r="4"/><path d="M3 23a7 7 0 0 1 14 0"/><circle cx="20" cy="10" r="3"/><path d="M19 16a5.5 5.5 0 0 1 6 5.5"/></svg></i>Se rencontrer</div>
+        <div class="round g"><i><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l6-6 4 4 8-8"/><path d="M17 8h5v5"/><path d="M4 23h20"/></svg></i>Faire des affaires</div>
+        <div class="round"><i><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4l2 5.5L20.5 11.5 15 13.5 13 19l-2-5.5L5.5 11.5 11 9.5z"/><path d="M22 18l.8 2.2L25 21l-2.2.8L22 24l-.8-2.2L19 21l2.2-.8z"/></svg></i>Gagner du temps</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="club" id="club">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Connecter pour entreprendre</div>
+      <h2>Et si votre réseau devenait votre meilleur accélérateur de business&nbsp;?</h2>
+      <p>Un club qui communique autrement : grâce à l'IA, mais aussi grâce à une communication visuelle forte avec les podcasts.</p>
+    </div>
+    <div class="grid4">
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2a5 5 0 0 1 5.5 4.8"/></svg></div>
+        <h3>Créer des opportunités</h3>
+        <p>Une réunion chaque vendredi matin, des tête-à-tête entre membres et des invités qui élargissent le cercle.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+        <h3>Partager ses contacts</h3>
+        <p>Les recommandations circulent entre membres, et chaque affaire apportée est remerciée et comptée.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+        <h3>Gagner en visibilité</h3>
+        <p>Un podcast par mois à votre nom, enregistré en studio et prêt à diffuser sur vos réseaux.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
+        <h3>Gagner du temps</h3>
+        <p>ARIA, l'IA du club, s'occupe des mails, des devis et de la communication de chaque membre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reunions">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Nos rendez-vous</div>
+      <h2>Venez nous rencontrer</h2>
+      <p>Les réunions sont ouvertes aux invités : c'est la meilleure façon de découvrir Innovation Affaires.</p>
+    </div>
+    <div class="rdv-grid">
+      <div class="weekly">
+        <div class="eyebrow">Réunion hebdomadaire</div>
+        <div class="big">7h15</div>
+        <div class="day">Chaque <em style="font-style:normal;color:var(--gold-l)">vendredi</em> matin</div>
+        <p>Au 89 rue Raspail, 83130 La Garde. Un tour de table, des recommandations, des tête-à-tête qui se calent, et la journée commence avec de nouvelles affaires.</p>
+        <a class="btn btn-gold" href="#rejoindre">Demander une invitation</a>
+      </div>
+      <div class="events">
+        <article class="event">
+          <div class="date"><b>4</b><small>nov.</small></div>
+          <div>
+            <h3>Soirée de lancement</h3>
+            <p>Buffet convivial, networking, découverte de nos podcasts et du Club ARIA. Deux personnes tirées au sort enregistrent un podcast en direct.</p>
+            <div class="meta">ACOR IMMO · 15 avenue Colbert, Toulon · 18 € (30 € en couple)</div>
+          </div>
+        </article>
+        <article class="event">
+          <div class="date"><b>18</b><small>nov.</small></div>
+          <div>
+            <h3>Soirée boulodrome</h3>
+            <p>Un moment détendu entre membres et invités, pour faire connaissance autrement.</p>
+            <div class="meta">23 € par personne · inscription en ligne</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="duo">
+  <div class="wrap">
+    <img class="logo-ia" src="assets/logo-ia-recadre.svg" alt="Innovation Affaires">
+    <span class="x">×</span>
+    <img class="logo-aria" src="assets/logo-aria-noir.png" alt="ARIA, Le Club">
+    <p>Innovation Affaires s'associe au Club ARIA pour offrir à chacun de ses membres une intelligence artificielle qui travaille pour lui, et un espace dédié au club.</p>
+  </div>
+</section>
+
+<section class="aria" id="aria">
+  <div class="wrap">
+    <img class="aria-logo" src="assets/logo-aria-blanc.png" alt="ARIA, Le Club">
+    <div class="head">
+      <div class="eyebrow">La solution IA intégrée au club</div>
+      <h2>Vous demandez. <em>ARIA livre.</em></h2>
+      <p>Une demande en phrases normales, à l'écrit ou à la voix. ARIA choisit le bon cerveau, ses agents se mettent au travail, et la livraison arrive : un mail trié, un devis en PDF, un post programmé.</p>
+    </div>
+    <div class="video">
+      <video src="assets/capsule-aria-innovation-affaires.mp4" poster="assets/capsule-poster.jpg" controls playsinline preload="none"></video>
+    </div>
+    <div class="feats">
+      <div class="feat"><h3>Mails</h3><p>Vos boîtes triées et résumées chaque matin, avec les réponses prêtes.</p><q>Prépare la réponse à Martin.</q></div>
+      <div class="feat"><h3>Devis et documents</h3><p>Devis, comptes rendus de chantier, courriers : en PDF, Word, Excel ou PowerPoint.</p><q>Fais le devis de la salle de bain Martin.</q></div>
+      <div class="feat"><h3>Votre entreprise en mémoire</h3><p>Vos prix, vos modèles et votre charte, appliqués à tout ce qu'elle produit.</p><q>Applique notre grille tarifaire.</q></div>
+      <div class="feat"><h3>Communication</h3><p>Plan sur quatre semaines, posts et visuels programmés sur LinkedIn, Facebook, Instagram.</p><q>Programme mes posts du mois.</q></div>
+      <div class="feat"><h3>Agenda</h3><p>Vos rendez-vous lus et créés, et une page où vos clients prennent rendez-vous.</p><q>Cale un point jeudi à 14 h avec Claire.</q></div>
+      <div class="feat"><h3>Agents</h3><p>Une mission décrite une fois, exécutée seule, à heure fixe ou à la demande.</p><q>Chaque lundi, liste mes devis sans réponse.</q></div>
+    </div>
+    <div class="brains">Pour chaque demande, ARIA choisit le meilleur modèle du marché : <span>Anthropic</span><span>OpenAI</span><span>Google</span><span>Mistral</span></div>
+  </div>
+</section>
+
+<section class="espace">
+  <div class="wrap">
+    <div class="shot"><img src="assets/capsule-reseau.jpg" alt="L'espace Club Innovation Affaires dans ARIA : enregistrer un merci pour l'affaire d'une phrase" loading="lazy"></div>
+    <div>
+      <div class="eyebrow">L'espace Club Innovation Affaires</div>
+      <h2 style="font-size:clamp(1.8rem,3.5vw,2.5rem);font-weight:800;margin:14px 0 22px">Votre réseau d'affaires, tenu à jour d'une phrase.</h2>
+      <ul>
+        <li><b>Recommandations</b><span>Données et reçues, avec le besoin du contact.</span></li>
+        <li><b>Tête-à-tête</b><span>Avec qui, où, et ce qu'il en ressort.</span></li>
+        <li><b>Merci pour l'affaire</b><span>Le chiffre d'affaires HT apporté par un membre.</span></li>
+        <li><b>Invités et formations</b><span>Ceux que vous amenez aux réunions, celles que vous suivez.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="offer" id="offre">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Offre réservée aux membres</div>
+      <h2>Tout ARIA. Et votre podcast, chaque mois.</h2>
+    </div>
+    <div class="offer-box">
+      <div class="incl">
+        <div class="eyebrow">Ce qui est inclus</div>
+        <ul>
+          <li>ARIA en illimité : messages, images, documents</li>
+          <li>Tous les agents : mails, veille, devis, comptes rendus, communication</li>
+          <li>Vos boîtes mail et votre agenda connectés</li>
+          <li>Tous les parcours de formation et leurs justificatifs (BE Consulting, certifié Qualiopi)</li>
+          <li>La communauté, l'annuaire et le Marché du Club ARIA</li>
+          <li>L'espace Club Innovation Affaires dans ARIA</li>
+          <li><strong>Un podcast par mois, à votre nom</strong></li>
+        </ul>
+      </div>
+      <div class="price">
+        <div class="eyebrow">Offre membre</div>
+        <div class="amount">60 € <small>TTC / mois</small></div>
+        <p>soit 50 € HT · sans engagement, résiliable en un clic</p>
+        <hr>
+        <p>Prix habituel : <s>164,40 € TTC par mois</s></p>
+        <p class="save">104,40 € de moins chaque mois</p>
+        <a class="btn btn-violet" style="margin-top:28px;justify-content:center" href="https://leclubaria.fr/innovation-affaires">Activer l'offre membre</a>
+      </div>
+    </div>
+    <div class="podcast">
+      <div class="mic"><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="10" y="3" width="8" height="14" rx="4"/><path d="M6 13a8 8 0 0 0 16 0M14 21v4"/></svg></div>
+      <div>
+        <h3>Votre entreprise, racontée par vous.</h3>
+        <p>Chaque mois, un épisode de 1 à 2 minutes vous est consacré, enregistré dans notre studio de La Garde. Il vous est livré prêt à diffuser, et le Club ARIA peut le reposter pour lui donner plus de portée.</p>
+      </div>
+    </div>
+    <p class="note">L'adhésion au club Innovation Affaires se règle directement auprès du club ; le Club ARIA ne facture que l'accès à ARIA et le podcast.</p>
+  </div>
+</section>
+
+<section class="join" id="rejoindre">
+  <div class="wrap">
+    <div class="mono-wrap"><img src="assets/monogramme-ia.svg" alt=""></div>
+    <div class="eyebrow">Rejoignez-nous</div>
+    <h2>Rendez-vous vendredi,<br><em>7h15 à La Garde.</em></h2>
+    <p>Venez en invité à une réunion du club, rencontrez les membres et découvrez ARIA en direct.</p>
+    <form class="invite" action="https://formsubmit.co/sudazurconsulting@pm.me" method="POST">
+      <input type="hidden" name="_subject" value="Nouvelle demande d'invitation · Innovation Affaires">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://innovation-affaires.fr/merci.html">
+      <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+      <label>Nom et prénom<input name="Nom" required autocomplete="name"></label>
+      <label>Entreprise<input name="Entreprise" autocomplete="organization"></label>
+      <label>Métier<input name="Métier"></label>
+      <label>Téléphone<input name="Téléphone" type="tel" required autocomplete="tel"></label>
+      <label class="full">E-mail<input name="email" type="email" required autocomplete="email"></label>
+      <label class="full">Message (facultatif)<textarea name="Message" rows="3" placeholder="Le vendredi qui vous arrange, qui vous a parlé du club…"></textarea></label>
+      <button class="btn btn-gold full" type="submit">Demander une invitation</button>
+    </form>
+    <p class="contact">89 rue Raspail, 83130 La Garde · <a href="https://www.google.com/maps/search/?api=1&query=89+rue+Raspail+83130+La+Garde">Voir le plan</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Innovation Affaires · Connecter pour entreprendre</span>
+    <a class="f-aria" href="https://leclubaria.fr">Solution IA intégrée <img src="assets/logo-aria-blanc.png" alt="ARIA, Le Club"></a>
+  </div>
+</footer>
+
+</body>
+</html>

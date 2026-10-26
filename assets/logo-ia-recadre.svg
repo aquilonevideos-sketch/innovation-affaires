@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 200 1080 790" role="img" aria-labelledby="title desc">
+<title id="title">Innovation Affaires</title>
+<desc id="desc">Reconstruction vectorielle des contours du logo fourni. Proportions et espacement conservés. Lettres converties en tracés, dégradés reconstitués à partir du JPEG de référence. Espace colorimétrique sRGB.</desc>
+<defs>
+<linearGradient id="g-dot" gradientUnits="userSpaceOnUse" x1="484.869" y1="257.928" x2="406.199" y2="271.8" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(85.69%,70.769%,47.467%)"/>
+<stop offset="0.125" stop-color="rgb(85.788%,70.157%,47.043%)"/>
+<stop offset="0.25" stop-color="rgb(83.988%,68.02%,44.886%)"/>
+<stop offset="0.375" stop-color="rgb(81.439%,65.604%,42.216%)"/>
+<stop offset="0.5" stop-color="rgb(77.937%,61.565%,38.373%)"/>
+<stop offset="0.625" stop-color="rgb(73.404%,56.859%,33.718%)"/>
+<stop offset="0.75" stop-color="rgb(69.259%,52.796%,29.945%)"/>
+<stop offset="0.875" stop-color="rgb(67.318%,50.682%,28.11%)"/>
+<stop offset="1" stop-color="rgb(66.737%,49.969%,27.2%)"/>
+</linearGradient>
+<linearGradient id="g-i" gradientUnits="userSpaceOnUse" x1="380.955" y1="475.664" x2="507.4" y2="509.545" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(7.2%,14.62%,21.573%)"/>
+<stop offset="0.333" stop-color="rgb(7.282%,14.729%,21.451%)"/>
+<stop offset="0.667" stop-color="rgb(7.008%,14.486%,21.188%)"/>
+<stop offset="1" stop-color="rgb(6.306%,13.922%,20.82%)"/>
+</linearGradient>
+<linearGradient id="g-a-upper" gradientUnits="userSpaceOnUse" x1="414.033" y1="432.88" x2="749.794" y2="492.084" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(7.357%,14.808%,21.427%)"/>
+<stop offset="0.333" stop-color="rgb(6.655%,14.161%,21.086%)"/>
+<stop offset="0.667" stop-color="rgb(7.227%,14.718%,21.502%)"/>
+<stop offset="1" stop-color="rgb(7.075%,14.486%,21.204%)"/>
+</linearGradient>
+<linearGradient id="g-a-leg" gradientUnits="userSpaceOnUse" x1="807.679" y1="547.559" x2="734.203" y2="635.124" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.941%,14.616%,21.776%)"/>
+<stop offset="0.333" stop-color="rgb(6.961%,14.431%,21.055%)"/>
+<stop offset="0.667" stop-color="rgb(7.259%,14.675%,21.4%)"/>
+<stop offset="1" stop-color="rgb(7.078%,14.576%,21.565%)"/>
+</linearGradient>
+<linearGradient id="g-swoosh" gradientUnits="userSpaceOnUse" x1="833.284" y1="407.986" x2="471.981" y2="660.973" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(66.729%,50.631%,27.953%)"/>
+<stop offset="0.125" stop-color="rgb(73.416%,57.533%,34.71%)"/>
+<stop offset="0.25" stop-color="rgb(80.09%,64.839%,42.165%)"/>
+<stop offset="0.375" stop-color="rgb(84.035%,68.871%,45.933%)"/>
+<stop offset="0.5" stop-color="rgb(84.988%,69.498%,46.125%)"/>
+<stop offset="0.625" stop-color="rgb(81.204%,65.192%,41.686%)"/>
+<stop offset="0.75" stop-color="rgb(70.714%,54.259%,31.478%)"/>
+<stop offset="0.875" stop-color="rgb(67.298%,50.686%,28.816%)"/>
+<stop offset="1" stop-color="rgb(68.729%,52.482%,29.608%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-1" gradientUnits="userSpaceOnUse" x1="116" y1="794.124" x2="119" y2="794.124" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(7.035%,13.749%,25.51%)"/>
+<stop offset="0.333" stop-color="rgb(6.506%,13.255%,25.071%)"/>
+<stop offset="0.667" stop-color="rgb(7%,13.808%,25.502%)"/>
+<stop offset="1" stop-color="rgb(6.667%,13.455%,25.094%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-2" gradientUnits="userSpaceOnUse" x1="258.437" y1="765.346" x2="160.216" y2="822.054" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(5.816%,14.02%,24.867%)"/>
+<stop offset="0.333" stop-color="rgb(6.282%,13.827%,23.294%)"/>
+<stop offset="0.667" stop-color="rgb(5.765%,12.584%,22.675%)"/>
+<stop offset="1" stop-color="rgb(6.902%,13.447%,24.012%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-3" gradientUnits="userSpaceOnUse" x1="388.443" y1="771.396" x2="288.26" y2="818.112" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.278%,14.259%,24.38%)"/>
+<stop offset="0.333" stop-color="rgb(6.039%,13.271%,22.361%)"/>
+<stop offset="0.667" stop-color="rgb(6.404%,13.761%,23.427%)"/>
+<stop offset="1" stop-color="rgb(5.357%,13.361%,22.443%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-4" gradientUnits="userSpaceOnUse" x1="416.676" y1="790.708" x2="517.392" y2="799.519" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(5.729%,13.722%,23.141%)"/>
+<stop offset="0.333" stop-color="rgb(6.208%,13.835%,22.875%)"/>
+<stop offset="0.667" stop-color="rgb(6.725%,14.561%,23.933%)"/>
+<stop offset="1" stop-color="rgb(5.741%,13.69%,22.737%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-5" gradientUnits="userSpaceOnUse" x1="546.631" y1="753.015" x2="615.688" y2="810.961" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.584%,15.376%,25.043%)"/>
+<stop offset="0.333" stop-color="rgb(5.004%,12.518%,21.09%)"/>
+<stop offset="0.667" stop-color="rgb(5.769%,13.961%,22.957%)"/>
+<stop offset="1" stop-color="rgb(6.008%,13.796%,22.392%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-6" gradientUnits="userSpaceOnUse" x1="722.581" y1="767.111" x2="667.558" y2="845.693" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.612%,14.514%,22.859%)"/>
+<stop offset="0.333" stop-color="rgb(6.549%,13.914%,23.055%)"/>
+<stop offset="0.667" stop-color="rgb(5.945%,13.808%,21.494%)"/>
+<stop offset="1" stop-color="rgb(5.431%,13.267%,23.024%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-7" gradientUnits="userSpaceOnUse" x1="849.261" y1="773.166" x2="775.382" y2="786.193" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(7.796%,16.141%,25.2%)"/>
+<stop offset="0.333" stop-color="rgb(6.145%,13.482%,21.784%)"/>
+<stop offset="0.667" stop-color="rgb(6.055%,14.106%,22.6%)"/>
+<stop offset="1" stop-color="rgb(6.847%,16.188%,25.855%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-8" gradientUnits="userSpaceOnUse" x1="908.382" y1="782.571" x2="867.161" y2="806.37" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(7.169%,13.498%,23.875%)"/>
+<stop offset="0.333" stop-color="rgb(5.757%,12.639%,22.706%)"/>
+<stop offset="0.667" stop-color="rgb(6.161%,13.431%,23.318%)"/>
+<stop offset="1" stop-color="rgb(6.176%,13.988%,24.773%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-9" gradientUnits="userSpaceOnUse" x1="1026.711" y1="775.236" x2="936.533" y2="817.287" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.329%,13.647%,23.722%)"/>
+<stop offset="0.333" stop-color="rgb(5.835%,13.906%,22.667%)"/>
+<stop offset="0.667" stop-color="rgb(6.329%,14.6%,24.529%)"/>
+<stop offset="1" stop-color="rgb(5.745%,12.941%,22.059%)"/>
+</linearGradient>
+<linearGradient id="g-innovation-10" gradientUnits="userSpaceOnUse" x1="1156.821" y1="781.921" x2="1059.68" y2="807.95" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(6.42%,13.863%,25.153%)"/>
+<stop offset="0.333" stop-color="rgb(6.008%,12.918%,21.741%)"/>
+<stop offset="0.667" stop-color="rgb(6.043%,13.631%,23.745%)"/>
+<stop offset="1" stop-color="rgb(6.102%,13.149%,22.824%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-1" gradientUnits="userSpaceOnUse" x1="267.696" y1="935.697" x2="330.907" y2="946.843" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(68.694%,52.671%,29.906%)"/>
+<stop offset="0.333" stop-color="rgb(69.275%,54.051%,31.337%)"/>
+<stop offset="0.667" stop-color="rgb(67.569%,52.447%,29.616%)"/>
+<stop offset="1" stop-color="rgb(68.827%,53.165%,31.204%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-2" gradientUnits="userSpaceOnUse" x1="381.706" y1="929.215" x2="420.497" y2="932.609" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(68.984%,53.745%,31.776%)"/>
+<stop offset="0.333" stop-color="rgb(67.557%,51.431%,28.239%)"/>
+<stop offset="0.667" stop-color="rgb(69.922%,53.043%,30.224%)"/>
+<stop offset="1" stop-color="rgb(65.592%,51.047%,28.216%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-3" gradientUnits="userSpaceOnUse" x1="478.632" y1="906.522" x2="507.278" y2="956.138" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(67.122%,51.369%,29.529%)"/>
+<stop offset="0.333" stop-color="rgb(69.031%,52.91%,29.188%)"/>
+<stop offset="0.667" stop-color="rgb(67.192%,51.439%,28.941%)"/>
+<stop offset="1" stop-color="rgb(68.627%,52.302%,29.149%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-4" gradientUnits="userSpaceOnUse" x1="576.134" y1="933.91" x2="637.03" y2="950.227" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(67.608%,52.51%,30.141%)"/>
+<stop offset="0.333" stop-color="rgb(69.424%,53.882%,30.686%)"/>
+<stop offset="0.667" stop-color="rgb(68.192%,52.416%,30.078%)"/>
+<stop offset="1" stop-color="rgb(69.063%,53.49%,30.584%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-5" gradientUnits="userSpaceOnUse" x1="675.581" y1="929.634" x2="703.324" y2="942.571" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(69.043%,53.365%,31.137%)"/>
+<stop offset="0.333" stop-color="rgb(68.722%,52.863%,29.686%)"/>
+<stop offset="0.667" stop-color="rgb(68.275%,53.231%,29.141%)"/>
+<stop offset="1" stop-color="rgb(67.392%,51.58%,28.831%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-6" gradientUnits="userSpaceOnUse" x1="752.631" y1="928.776" x2="806.42" y2="938.26" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(68.157%,52.839%,29.937%)"/>
+<stop offset="0.333" stop-color="rgb(68.573%,52.627%,29.667%)"/>
+<stop offset="0.667" stop-color="rgb(68.753%,52.984%,29.565%)"/>
+<stop offset="1" stop-color="rgb(67.867%,51.239%,28.733%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-7" gradientUnits="userSpaceOnUse" x1="860.423" y1="933.45" x2="905.763" y2="937.417" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(68.145%,52.635%,29.796%)"/>
+<stop offset="0.333" stop-color="rgb(70.478%,54.651%,31.169%)"/>
+<stop offset="0.667" stop-color="rgb(68.957%,53.235%,30.094%)"/>
+<stop offset="1" stop-color="rgb(70.098%,53.694%,30.4%)"/>
+</linearGradient>
+<linearGradient id="g-affaires-8" gradientUnits="userSpaceOnUse" x1="986.652" y1="902.115" x2="974.742" y2="969.66" color-interpolation="sRGB">
+<stop offset="0" stop-color="rgb(75.149%,58.329%,34.996%)"/>
+<stop offset="0.333" stop-color="rgb(76.729%,58.894%,34.243%)"/>
+<stop offset="0.667" stop-color="rgb(79.298%,61.765%,37.659%)"/>
+<stop offset="1" stop-color="rgb(77.706%,59.698%,35.165%)"/>
+</linearGradient>
+</defs>
+<path id="dot" d="M 489.707,263.97 C 490.514,240.17 470.07,217.797 445.978,217.821 C 421.948,216.135 399.936,237.382 399.786,261.241 C 397.841,285.176 418.435,307.765 442.417,308.104 C 466.875,309.672 489.676,288.539 489.707,263.97 Z" fill="url(#g-dot)" fill-rule="evenodd"/>
+<path id="i" d="M 476.268,330.61 C 453.812,332.99 429.17,338.439 413.88,356.475 C 408.009,363.376 404.754,372.075 403.234,380.904 C 401.374,477.708 401.663,574.61 401.03,671.449 C 437.755,653.601 462.637,616.555 472.959,577.821 C 475.145,567.517 475.226,556.956 475.148,546.467 L 475.249,531.965 L 475.439,506.964 L 476.268,330.61 Z" fill="url(#g-i)" fill-rule="evenodd"/>
+<path id="a-upper" d="M 731.079,457.145 C 701.092,405.295 671.596,353.137 640.49,301.96 L 635.3,309.688 C 578.054,410.81 523.141,513.269 471.525,617.38 L 462.876,632.584 C 455.466,644.643 446.902,656.015 434.5,670 C 434.5,670 434.5,670 434.5,670 C 449.707,659.032 461.184,647.684 471.713,635.754 C 477.831,628.698 483.455,621.246 488.739,613.55 L 502.209,591.328 C 540.417,522.87 577.574,453.844 614.999,384.973 L 667.95,483.964 C 688.731,474.42 709.802,465.518 731.079,457.145 Z" fill="url(#g-a-upper)" fill-rule="evenodd"/>
+<path id="a-leg" d="M 691.963,530.744 L 752.223,495.285 L 860.061,671.642 L 770.316,671.541 Z" fill="url(#g-a-leg)" fill-rule="evenodd"/>
+<path id="swoosh" d="M 918,431.9 C 887.486,431.471 862.278,434.365 837.38,438.095 C 825.246,440.236 813.347,443.284 801.379,446.145 C 788.285,449.93 775.198,453.78 762.275,458.161 C 660.846,494.473 558.495,544.792 490.861,631.637 L 478.378,647.246 L 457.655,671.298 L 525.998,671.319 C 575.951,604.389 638.981,546.689 711.729,505.456 C 773.167,468.401 841.218,441.085 918,431.9 Z" fill="url(#g-swoosh)" fill-rule="evenodd"/>
+<path id="innovation-1" d="M 112.265,745.196 L 124.27,745.391 L 124.265,844.096 L 112.259,844.128 Z" fill="url(#g-innovation-1)" fill-rule="evenodd"/>
+<path id="innovation-2" d="M 166.789,743.538 L 243.434,818.26 L 243.429,745.313 L 255.042,745.286 L 255.074,845.907 L 178.445,771.109 L 178.354,844.093 L 166.706,844.045 Z" fill="url(#g-innovation-2)" fill-rule="evenodd"/>
+<path id="innovation-3" d="M 294.117,743.564 L 370.948,818.07 L 370.978,745.274 L 382.723,745.317 L 382.743,845.759 L 306,771.114 L 305.935,844.144 L 294.085,844.026 Z" fill="url(#g-innovation-3)" fill-rule="evenodd"/>
+<path id="innovation-4" d="M 522.19,795.691 C 523.255,767.145 496.318,743.108 468.483,743.978 C 440.614,742.361 413.013,765.151 412.882,793.801 C 411.411,822.391 438.323,846.397 466.133,845.873 C 494.279,847.904 522.606,824.716 522.19,795.691 Z M 510.253,795.194 C 511.002,772.595 490.358,752.917 467.963,753.72 C 445.677,752.605 424.488,771.733 424.689,794.294 C 423.54,816.947 444.28,836.545 466.524,836.295 C 489.141,837.789 510.746,818.084 510.253,795.194 Z" fill="url(#g-innovation-4)" fill-rule="evenodd"/>
+<path id="innovation-5" d="M 543.233,745.264 L 555.947,745.322 L 593.268,822.748 L 631.257,745.256 L 643.945,745.214 L 593.065,848.031 Z" fill="url(#g-innovation-5)" fill-rule="evenodd"/>
+<path id="innovation-6" d="M 651.574,844.036 L 702.344,742.554 L 753.224,844.072 L 740.247,844.163 L 725.616,814.023 L 679.194,814.086 L 664.205,844.157 Z M 684.272,804.187 L 720.569,804.244 L 702.261,767.667 Z" fill="url(#g-innovation-6)" fill-rule="evenodd"/>
+<path id="innovation-7" d="M 765.161,745.304 L 849.655,745.288 L 849.632,755.116 L 812.935,755.2 L 812.937,843.965 L 801.059,844.172 L 800.99,755.165 L 765.133,755.152 Z" fill="url(#g-innovation-7)" fill-rule="evenodd"/>
+<path id="innovation-8" d="M 882.062,745.314 L 894.102,745.275 L 894.089,844.111 L 882.095,844.045 Z" fill="url(#g-innovation-8)" fill-rule="evenodd"/>
+<path id="innovation-9" d="M 1035.273,796.212 C 1036.721,767.829 1010.157,743.738 982.498,744.141 C 954.758,742.318 927.403,765.382 927.423,793.796 C 925.867,822.169 952.094,846.677 979.948,845.886 C 1007.857,847.92 1035.634,824.9 1035.273,796.212 Z M 1023.61,795.651 C 1024.147,773.263 1004.358,753.407 981.971,753.824 C 959.637,752.589 939.186,772.033 939.146,794.35 C 938.229,816.574 958.108,836.964 980.384,836.329 C 1002.802,837.528 1023.681,818.231 1023.61,795.651 Z" fill="url(#g-innovation-9)" fill-rule="evenodd"/>
+<path id="innovation-10" d="M 1064.24,743.742 L 1141.076,818.524 L 1141.063,745.294 L 1152.57,745.349 L 1152.533,845.963 L 1075.977,771.144 L 1075.993,844.117 L 1064.203,844.101 Z" fill="url(#g-innovation-10)" fill-rule="evenodd"/>
+<path id="affaires-1" d="M 255.707,973.663 L 293.227,899.3 L 297.338,899.3 L 334.274,973.595 L 322.136,973.764 L 312.717,954.344 L 277.762,954.202 L 267.898,973.701 Z M 282.115,945.339 L 308.087,945.17 L 295.509,918.322 Z" fill="url(#g-affaires-1)" fill-rule="evenodd"/>
+<path id="affaires-2" d="M 380.496,899.176 L 428.105,899.07 L 428.03,908.675 L 391.915,908.678 L 391.894,930.397 L 423.282,930.354 L 423.433,939.926 L 391.93,939.914 L 391.968,973.631 L 380.34,973.719 Z" fill="url(#g-affaires-2)" fill-rule="evenodd"/>
+<path id="affaires-3" d="M 478.768,899.176 L 526.719,899.066 L 526.859,908.731 L 490.167,908.592 L 490.067,930.363 L 521.727,930.28 L 521.826,939.958 L 490.276,939.911 L 490.058,973.66 L 478.757,973.702 Z" fill="url(#g-affaires-3)" fill-rule="evenodd"/>
+<path id="affaires-4" d="M 560.717,973.718 L 598.381,899 L 601.913,899 L 639.172,973.715 L 626.769,973.715 L 617.573,954.327 L 582.549,954.215 L 573.226,973.636 Z M 587.032,945.24 L 613.345,945.339 L 600.123,918.141 Z" fill="url(#g-affaires-4)" fill-rule="evenodd"/>
+<path id="affaires-5" d="M 684.211,899.114 L 695.837,899.124 L 695.922,973.651 L 684.211,973.633 Z" fill="url(#g-affaires-5)" fill-rule="evenodd"/>
+<path id="affaires-6" d="M 785.641,942.049 C 789.784,940.72 794.103,939.531 797.586,936.784 C 800.407,934.685 802.393,931.642 803.705,928.419 C 804.839,925.619 805.175,922.604 805.124,919.601 C 805.063,917.259 804.506,914.974 803.726,912.776 L 799.917,906.936 C 787.372,894.719 768.518,900.411 752.869,899.227 L 752.78,973.771 L 764.033,973.503 L 764.15,942.563 C 767.176,942.713 770.327,941.99 773.277,942.886 C 781.253,952.724 788.552,963.399 796.132,973.652 L 809.799,973.556 L 785.641,942.049 Z M 764.003,908.615 L 764.081,933.622 L 772.45,933.693 L 777.459,933.697 L 782.421,933.224 C 794.274,932.319 797.595,913.775 785.818,910.026 L 780.974,908.88 L 773.971,908.662 L 764.003,908.615 Z" fill="url(#g-affaires-6)" fill-rule="evenodd"/>
+<path id="affaires-7" d="M 858.821,899.198 L 907.824,899.09 L 907.826,908.702 L 870.152,908.589 L 870.074,930.383 L 902.067,930.407 L 902.34,940.041 L 870.162,939.838 L 870.182,964.12 L 908.122,963.947 L 908.343,973.735 L 858.792,973.705 Z" fill="url(#g-affaires-7)" fill-rule="evenodd"/>
+<path id="affaires-8" d="M 970.363,911.991 L 972.848,910.679 C 980.471,905.668 990.58,908.559 996.744,914.534 L 1003.477,906.407 C 998.788,902.354 993.276,899.036 986.994,898.311 L 980.5,898.13 C 963.801,896.295 950.384,917.874 962.498,930.86 L 967.479,935.012 L 975.481,939.07 L 984.368,942.403 C 987.551,943.78 990.709,945.613 992.805,948.44 C 993.844,949.759 994.258,951.449 994.455,953.083 C 994.646,955.091 994.085,957.078 993.32,958.913 C 985.964,969.687 969.245,964.596 962.018,956.062 L 954.859,963.839 C 966.988,978.255 997.796,980.645 1004.863,960.119 L 1005.766,952.687 C 1005.477,949.714 1004.592,946.793 1003.529,944.019 C 1001.757,940.8 999.25,937.975 995.998,936.198 C 992.48,933.946 988.601,932.355 984.739,930.803 C 980.453,929.036 975.739,928.002 972.242,924.767 C 968.529,921.483 969.268,916.184 970.363,911.991 Z" fill="url(#g-affaires-8)" fill-rule="evenodd"/>
+</svg>
